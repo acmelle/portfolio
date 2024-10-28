@@ -47,7 +47,7 @@ myclusters = "/mnt/bh1/storage/external/external/sc-datasets/integration/seurat"
 tomesave = "tome_int.rds"
 markersave = "mmparkers.txt"
 setwd(myclusters)
-#query = readRDS("/mnt/bh1/data/user/amanda.mitchell/data/RXRX/tenx/runa/Seurat/dopamine_all/tome.rds")
+#query = readRDS("/mnt/bh1/data/user/amanda.mitchell/data/tome.rds")
 
 reference_a = readRDS("/mnt/bh1/storage/external/external/sc-datasets/neurodev/paulsen-2022-ASD/Seurat/final/neurodvtome.rds") #CellType
 reference_b = readRDS("/mnt/bh1/storage/external/external/sc-datasets/AD/grubman-2019-uglia/seurat/tome.rds") #cellType
